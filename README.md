@@ -1,8 +1,10 @@
 # Abstract
 
-The main message of the following pages is that mathematical logic—centered around the incompleteness theorems—is first and foremost an investigation of _computation_, not arithmetic. More concretely, we're going to hone in on one key fact: Peano Arithmetic can represent any computable function. It has achieved _Turing completeness_. Armed with this knowledge we will show the following.
+The overarching theme of the following pages is that mathematical logic---centered around the incompleteness theorems---is first and foremost an investigation of _computation_, not arithmetic. Guided by this intuition we will show the following.
 
-* We'll derive the Diagonal Lemma and First Incompleteness Theorem using significantly simplified proofs.
-* By adding a wrapper to Gödel's original proof checker we'll be able get $\mathrm{G}$ to not merely assert its own unprovability, but its own _undecidability_, yielding a very easy toy version of the Second Incompleteness Theorem.
-* Drawing on analogy between the First Incompleteness Theorem and the Halting Problem produces an equivalent of the Nondeterministic Time Hierarchy Theorem from the field of computational complexity.
-* Finally, we'll generalize the First Incompleteness Theorem in the presence of oracles.
+* First, we'll all but eliminate the need for Gödel numbers.
+* Next, we'll introduce a novel notational device for representable functions and walk through a condensed demonstration that Peano Arithmetic can represent every computable function. It has achieved Turing completeness.
+* Continuing, we'll derive the Diagonal Lemma and First Incompleteness Theorem using significantly simplified proofs.
+* Approaching the Second Incompleteness Theorem, we'll be able to use some self-referential trickery to avoid much of the technical morass surrounding it; arriving at three separate versions.
+* Extending the analogy between the First Incompleteness Theorem and the Unsolvability of the Halting Problem produces an equivalent of the Nondeterministic Time Hierarchy Theorem from the field of computational complexity.
+* Lastly, we'll briefly peer into the realm of the uncomputable by connecting our ideas to oracles.
